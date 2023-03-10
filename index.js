@@ -9,7 +9,7 @@ function writeCards(names, x){
     }
     return result;
 }
-//et returnedValue = writeCards(names, x);
+//let returnedValue = writeCards(names, x);
 console.log(writeCards(["Ada", "Brendan", "Ali"], "birthday"));
 
 function countDown(num){
@@ -17,4 +17,4 @@ function countDown(num){
       console.log(num--);
     }
     }
-    countDown(13)
+    countDown()
